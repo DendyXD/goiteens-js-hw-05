@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <p>Завдання 1</p>
+
+    <button class="button" data-action="show-modal">Відкрити Модалку</button>
+
+    <div class="backdrop backdrop-js">
+      <div class="modal">
+        <h2>Modal Window</h2>
+        <p>
+          In user interface design for computer applications, a modal window is
+          a graphical control element subordinate to an application's main
+          window. A modal window creates a mode that disables user interaction
+          with the main window but keeps it visible, with the modal window as a
+          child window in front of it. Users must interact with the modal window
+          before they can return to the parent window. This avoids interrupting
+          the workflow on the main window. Modal windows are sometimes called
+          heavy windows or modal dialogs because they often display a dialog
+          box.
+        </p>
+        <button type="button" class="button" data-action="close-modal">
+          Закрити
+        </button>
+      </div>
+    </div>
+
+    <p>Завдання 2</p>
+
+    <form>
+      <p>Choose Color</p>
+      <label>
+        <input type="radio" name="color" value="red" checked />
+        Red
+      </label>
+      <label>
+        <input type="radio" name="color" value="white" />
+        White
+      </label>
+      <label>
+        <input type="radio" name="color" value="green" />
+        Green
+      </label>
+    </form>
+
+    <p>Завдання 3</p>
+
+    <input type="text" placeholder="Ваше ім'я?" id="name-input" />
+    <h1>Привіт, <span id="name-output">незнайомець</span>!</h1>
+
+    <p>Завдання 4</p>
+
+    <input
+      type="text"
+      id="validation-input"
+      data-length="6"
+      placeholder="Введи 6 символів"
+    />
+
+    <p>Завдання 5</p>
+
+    <input type="range" id="font-size-control" />
+    <br />
+    <span id="text">Text</span>
+
+    <script src="main.js"></script>
+  </body>
+</html>
